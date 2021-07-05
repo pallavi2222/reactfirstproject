@@ -69,7 +69,8 @@
   }
   
   .navbar .rightSide svg {
-    font-size: 35px;
+    font-size: 40px;
+    color:#1e2fa7;
   
   }
   
@@ -115,7 +116,7 @@
      
       }
       .navbar .rightSide {
-        flex: 30%;
+        flex:20%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -123,7 +124,7 @@
         padding-left: 0px;
       }
       .navbar{
-        height:70px;
+        height:77px;
         border-bottom: 5px solid #3D9BE9;
       }
       .navbar .leftSide{
@@ -138,13 +139,13 @@
     .navbar .leftSide .vl{
       
       border-left: 5px solid #3D9BE9;
-    height: 40px;
+    height: 45px;
     margin:3px;
   }
   .navbar .leftSide .leftContent{
     padding-left: 8px;
     color:#3D9BE9;
-    font-size: 26;
+    font-size:28px;
     font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     letter-spacing:0.5px;
     margin-bottom:30px;
@@ -152,11 +153,11 @@
   }
   .navbar .leftSide .leftContent2{
     color:#3D9BE9;
-    font-size:6.8px;
+    font-size:7px;
     font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     font-weight: bold;
     letter-spacing:0px;
-    margin-top:-12px;
+    margin-top:-14px;
   }
     .navbar .rightSide {
       justify-content: flex-end;
