@@ -129,7 +129,7 @@
       .navbar .leftSide{
         flex: 85%;
         height: 100%;
-        padding-left: 17px;
+        padding-left: 13px;
       }
       .navbar .leftSide img{
         width:50px;
@@ -142,7 +142,7 @@
     margin-bottom: 7px;
   }
   .navbar .leftSide .leftContent{
-    padding-left: 10px;
+    padding-left: 8px;
     color:#3D9BE9;
     font-size: 15px;
     font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
