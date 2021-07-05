@@ -60,3 +60,116 @@
   .navbar a:hover{
     color:#a71e3cbf;
   }
+  .navbar .rightSide button {
+    
+    background-color: transparent;
+    border: none;
+    color:#3D9BE9;
+    cursor: pointer;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 25px;
+  
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  .navbar #open .leftContent {
+    display: none;
+  }
+  .navbar #open .vl {
+    display: none;
+  }
+  
+  
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 10px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+
+
+  
+  .navbar #open a {
+    width: 12px;
+    margin: 14px;
+    font-weight: bold;
+    font-size: 11px;
+    padding-right:31px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+
+     
+      }
+      .navbar .rightSide {
+        flex: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+      }
+      .navbar{
+        height:60px;
+        border-bottom: 4px solid #3D9BE9;
+      }
+      .navbar .leftSide{
+        padding-left: 25px;
+      }
+      .navbar .leftSide img{
+        width:50px;
+        margin-bottom: 7px;
+    }
+    .navbar .leftSide .vl{
+      
+      border-left: 4px solid #3D9BE9;
+    height: 35px;
+    margin-bottom: 7px;
+  }
+  .navbar .leftSide .leftContent{
+    padding-left: 10px;
+    color:#3D9BE9;
+    font-size: 15px;
+    font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    letter-spacing:0.5px;
+    margin-bottom:25px;
+    line-height:0px;
+  }
+  .navbar .leftSide .leftContent2{
+    color:#3D9BE9;
+    font-size: 5px;
+    font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    font-weight: bold;
+    letter-spacing:0px;
+  }
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }

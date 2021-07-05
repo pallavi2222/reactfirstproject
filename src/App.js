@@ -8,6 +8,7 @@ import Reports from "./pages/Reports"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +23,8 @@ function App() {
           <Route path="/Reports" exact component={Reports}/>
       </switch>
       </Router>
-     
-  
+    
+    
     </div>
   );
 }
